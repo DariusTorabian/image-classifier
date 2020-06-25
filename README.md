@@ -93,7 +93,7 @@ git clone https://github.com/dariustorabian/image-classifier.git
 conda create --name <NameOfEnvironment> --file requirements.txt
 ```
 
-3. Run [capture.py](https://github.com/dariustorabian/image-classifier/blob/master/src/capture.py) in the command line and your webcam will open up. My pretrained model will automatically be loaded in. If you'd like to take a look how it was created, you can take a look at the code in the Jupyter Notebook [model_selftrained.ipynb](https://github.com/dariustorabian/image-classifier/blob/master/notebooks/model_selftrained.ipynb).
+3. Run [capture.py](https://github.com/dariustorabian/image-classifier/blob/master/src/capture.py) in the command line and your webcam will open up. My pretrained model will automatically be loaded in. If you'd like to know how it was created, you can take a look at the code in the Jupyter Notebook [model_selftrained.ipynb](https://github.com/dariustorabian/image-classifier/blob/master/notebooks/model_selftrained.ipynb).
 
 4. Press the `p` key while holding an apple, orange or banana to let the model tell you which fruit you are holding. Press `Space` to take a picture and `q` to close the window. Pictures will be saved in `./out/` if not specified otherwise per command-line argument while runing `capture.py`.
 
